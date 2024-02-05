@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: dimgray;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 95%;
+    margin: 150px auto;
+}
+label {
+    margin-right: 10px; /* Adjust as needed */
+    font-weight: bold;
+}
+
+h1 {
+    color: darkgray;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+input{
+    width: 230px;
+    font-size: 2rem;
+}
+.dip{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+input[type="number"],
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button{
+    margin: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    background-color: darkslategrey;
+    padding-right: 25px;
+    font-size: 1.5rem;
+}
+
+input[type="number"]:focus,
+button:focus {
+    outline: none;
+}
+
+input[type="number"]::placeholder {
+    color: #3b3434;
+}
+
+button:hover {
+    background-color: rgb(187, 172, 172);
+}
